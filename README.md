@@ -1,5 +1,9 @@
 # styled-angular-components
 
+💡 POC of a React styled-component pattern for Angular components
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/56b55e5c-08b9-4787-ada4-41dea315c45a/deploy-status)](https://app.netlify.com/sites/styled-angular-components/deploys)
+
 ---
 
 ## About
