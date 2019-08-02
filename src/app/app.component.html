@@ -1,0 +1,23 @@
+<h1>styled-angular-components</h1>
+<p>
+  A POC of using both a typed <code>theme</code> object and component <code>@Inputs</code> with
+  <a href="https://emotion.sh" target="_blank">Emotion</a> CSS to produce something similar to
+  <a href="https://www.styled-components.com/" target="_blank">styled-components</a> with React.
+</p>
+<p>
+  Allows you to dynamically style a angular component without needing CSS classes that exactly match component states as
+  well as use libraries like <a href="https://polished.js.org/" target="_blank">polished</a> to dynamically change
+  styles.
+</p>
+<p>
+  Please feel free to fork, test, improve and build on this POC via
+  <a href="https://github.com/South-Paw/styled-angular-components">Github</a>.
+</p>
+<hr />
+<p>
+  Switch theme 👉
+  <button (click)="switchTheme(theme === 'blueTheme' ? 'greenTheme' : 'blueTheme')">current: {{ theme }}</button>
+  <button (click)="disabled = !disabled">disable buttons</button>
+</p>
+<p><app-button [appearance]="'primary'" [isDisabled]="disabled">Primary Button</app-button></p>
+<p><app-button [appearance]="'secondary'" [isDisabled]="disabled">Secondary Button</app-button></p>

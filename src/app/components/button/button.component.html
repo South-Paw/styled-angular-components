@@ -1,0 +1,6 @@
+<button
+  [ngClass]="component.classes$ | async"
+  [disabled]="isDisabled"
+>
+  <ng-content></ng-content>
+</button>
